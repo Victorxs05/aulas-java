@@ -8,8 +8,8 @@ public class Main {
         System.out.println("ID: " + funcionario.getId());
         System.out.println("Nome: " + funcionario.getNome());
         System.out.println("Salário: " + funcionario.getSalario());
-        System.out.println("Setor: " + funcionario.getSetor());
-        System.out.println("Sexo: " + funcionario.getSexo());
+        System.out.println("Setor: " + funcionario.getSetor().getFuncoes());
+        System.out.println("Sexo: " + funcionario.getSexo().getTexto());
         System.out.println("Idade: " + funcionario.getIdade());
     }
 }
